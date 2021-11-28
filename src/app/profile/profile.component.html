@@ -11,10 +11,10 @@
 			</div>
 			<div class="panel-body">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-4">
 						<img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile image" >
 					</div>
-					<div class="col-md-5" id="list">
+					<div class="col-md-4" id="list">
 						<ul class="list-group">
 							<li class="list-group-items" *ngIf="profile.bio">{{profile.bio}}</li>
 							<li class="list-group-items" *ngIf="profile.login">Github username: {{profile.login}}</li>
@@ -24,11 +24,10 @@
 					</div>
 					<div class="col-sm-4">
 						<div>
-							<p>
-								<span class="label label-default">{{profile.followers}} Followers</span>
-								<span class="label label-default">Following {{profile.following}}</span>
-								<span class="label label-default"> {{profile.public_repos}} Repositories</span>
-							</p>
+								<p class="label label-default">{{profile.followers}} Followers</p>
+								<p class="label label-default"> {{profile.following}} Following</p>
+								<p class="label label-default"> {{profile.public_repos}} Repositories</p>
+							
 							<p><a href="{{profile.html_url}}" class="btn btn-success btn-sm">View profile on github</a></p>
 							<div class="pane panel-default">
 								<div class="panel-heading">

@@ -9,8 +9,7 @@
 	<div *ngIf="profile">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				{{profile.name}} 
-				<span *ngIf="profile.company">,Works at {{profile.company}} </span>
+				<p appHighlight>{{profile.name}} <span *ngIf="profile.company">,Works at {{profile.company}} </span></p>
 			</div>
 			<div class="panel-body">
 				<div class="row">

@@ -2,7 +2,7 @@
 
 #  GITHUB SEARCH.
 
-This is a web application that one can use to search for users name and repository and information on Github.
+This is a web application that one can use to search for users name and repository and information on Github and get the users information on GiTHUB SEARCH.
 
 ### Author
 

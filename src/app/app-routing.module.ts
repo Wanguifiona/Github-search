@@ -8,7 +8,6 @@ const routes: Routes = [
  
   { path: 'about', component: AboutComponent},
   { path: 'profile', component: ProfileComponent},
-  { path:'**', component:NotFoundComponent},
   { path: '', redirectTo:"/about", pathMatch:"full"},
 ];
 

@@ -1,0 +1,16 @@
+#welcome {
+    font-family: 'Courier New', Courier, monospace;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black;
+      background-position: center;
+      background-size: cover;
+      
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.re-scale{
+    width:1480px
+}

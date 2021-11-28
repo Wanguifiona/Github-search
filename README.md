@@ -6,7 +6,7 @@ This is a web application that one can use to search for users name and reposito
 
 ### Author
 
-Fiona Maina
+Fiona Wangui
 
 ### Contact
 

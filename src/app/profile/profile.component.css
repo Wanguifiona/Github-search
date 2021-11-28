@@ -1,4 +1,12 @@
 .search{
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+}
+.panel-heading{
+    text-align: center;
+}
+.list-group{
+    text-align: left;
+    margin-left: 75px;
 }
